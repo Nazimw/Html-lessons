@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>form</title>
+  <style>
+    body {
+      background-color: #222;
+      font-family: Arial, sans-serif;
+    }
+
+    form {
+      background-image: url(https://img.ixbt.site/live/topics/preview/00/05/52/82/ea068135c5.jpg);
+      background-size: cover;
+      width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+    }
+
+    label, span, fieldset {
+      display: block;
+      margin: 0.8rem 0;
+      color: white;
+      font-size: 1rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 0.6rem;
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 1rem;
+    }
+
+    /* 🔘 Радио и чекбоксы */
+    .option-group {
+      margin-bottom: 1rem;
+    }
+
+    .option-group label {
+      display: flex;
+      align-items: center;
+      gap: 8px; /* отступ между input и текстом */
+      cursor: pointer;
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: #ffcc00; /* 🎨 Цвет чекбокса/радио */
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Пожалуйста, заполните форму</h1>
+
+  <form>
+    <fieldset>
+      <legend>Анкета участника</legend>
+    <label for="firstname">Имя</label>
+    <input type="text" name="firstname" id="firstname">
+
+    <label for="lastname">Фамилия</label>
+    <input type="text" name="lastname" id="lastname">
+
+    <div class="option-group">
+      <span>Пол:</span>
+      <label><input type="radio" name="gender" value="male"> Мужчина</label>
+      <label><input type="radio" name="gender" value="female"> Женщина</label>
+    </div>
+
+    <label for="adress">Адрес</label>
+    <input type="text" name="adress" id="adress">
+
+    <label for="email">Почтовый адрес</label>
+    <input type="email" name="email" id="email">
+
+    <label for="password">Пароль</label>
+    <input type="password" name="password" id="password">
+
+    <label for="repeat-password">Повторите пароль</label>
+    <input type="password" name="repeat-password" id="repeat-password">
+
+    <div class="option-group">
+      <span>Кем вы являетесь:</span>
+      <label><input type="checkbox" name="role" value="Vedushiy"> Ведущим</label>
+      <label><input type="checkbox" name="role" value="Organizator"> Организатором</label>
+      <label><input type="checkbox" name="role" value="Directora"> Директором</label>
+    </div>
+    </fieldset>
+
+  </form>
+</body>
+</html>

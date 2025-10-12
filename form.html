@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<style>
+		label, input, legend {
+			display: block;
+			margin: 1rem;
+			color: white;
+			font-family: 'Arial';
+		}
+		h1 {
+			text-align: center;
+			font-family: 'Arial';
+		}
+		form {
+			background-image: url(https://img.ixbt.site/live/topics/preview/00/05/52/82/ea068135c5.jpg);
+			width: 900px;
+			margin: 0 auto;
+			padding: 2rem;
+		}
+		.radio {
+			display: block;
+			margin: 1rem;
+			color: white;
+			font-family: 'Arial';
+		}
+	</style>
+</head>
+<body>
+<h1>Пожалуйста заполните форму</h1>
+<form
+	<fieldset>
+		<legend>Анкета участника</legend>
+	</fieldset>
+	<label for="firstname">Имя</label>
+	<input type="text" name="firstname" id="firstname">
+
+	<label for="Lastname">Фамилие</label>
+	<input type="text" name="lastname" id="lastname">
+
+	<label for="gender">Пол</label>
+	<input type="radio" name="gender" id="gender" value="male" class="radio">Мужчина
+	<input type="radio" name="gender" id="gender" value="female">Женщина
+
+	<label for="adress">Адрес</label>
+	<input type="text" name="adress" id="adress">
+
+	<label for="email">Почтовый Адрес</label>
+	<input type="email" name="email" id="email">
+
+	<label for="password">Пароль</label>
+	<input type="password" name="password" id="password">
+
+	<label for="repeat-password">Повторите Пароль</label>
+	<input type="repeat-password" name="repeat-password" id="repeat-password">
+
+	<label for="who">Пол</label>
+	<input type="checkbox" name="checkbox" id="checkbox" value="Vedushiy" class="radio">Ведущего
+	<input type="checkbox" name="checkbox" id="checkbox" value="Organizator">Организатора
+	<input type="checkbox" name="checkbox" id="checkbox" value="Directora">Директора
+
+</form>
+</body>
+</html>
