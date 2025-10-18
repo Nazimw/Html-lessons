@@ -15,7 +15,7 @@ li {
 }
 .cards-wrapper {
     background-color: palevioletred;
-    border-color: aquamarine;
+    border: 7px double green;
     display: grid;
     grid-template-columns: 16rem 16rem 16rem 16rem;
     align-items: flex-start;
@@ -25,6 +25,7 @@ li {
     width: fit-content;
     margin: 0 auto;
 }
+
 .card {
     background-color: rgb(255, 255, 255);
     border: 1px solid green;
@@ -64,4 +65,7 @@ li {
 
 .card:hover {
     transform: scale(1.05)
+}
+.card-border-color_blue {
+    border-color: rgb(238, 255, 0);
 }
