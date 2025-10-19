@@ -57,7 +57,7 @@ button {
     transition: transform 0.3s ease;
 }
 button > a {
-    color:rgb(182, 119, 43)
+    color:rgb(250, 243, 235)
 }
 .section1-wrapper {
     display: flex;
@@ -129,7 +129,7 @@ svg {
 .section2-wrapper {
     display: flex;
     flex-direction: column;
-    width: 1110px;
+    width: 1200px;
     padding: 2rem;
     justify-content: center;
     align-items: stretch;

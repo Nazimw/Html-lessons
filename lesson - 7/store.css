@@ -69,3 +69,6 @@ li {
 .card-border-color_blue {
     border-color: rgb(238, 255, 0);
 }
+h1 {
+    text-align: center;
+}
