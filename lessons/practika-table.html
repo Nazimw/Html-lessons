@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        tr, th, td, table {
+            border: 1px solid black;
+            padding: 1rem;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        thead {
+            background-color: blue;
+            color: azure;
+        }
+        tbody {
+            background-color: pink;
+        }
+        .bg-yellow {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+        <table>
+            <thead><tr>
+                <th>ID</th>
+                <th>ФИО</th>
+                <th>Оценка</th>
+            </tr></thead>
+
+            <tbody><tr>
+                <td>1</td>
+                <td>Иван Иванов</td>
+                <td>4.7</td>
+            </tr></tbody>
+
+            <tr class="bg-yellow">
+                <td>2</td>
+                <td>Лера Тимшук</td>
+                <td>4.9</td>
+            </tr>
+
+            <tbody><tr>
+                <td>3</td>
+                <td>Анастасия Овценко</td>
+                <td>3.5</td>
+            </tr></tbody>
+        </table>
+
+    </div>
+</body>
+</html>
