@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psevdo-elementy</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        p::first-letter {
+            color: blue;
+            font-size: large;
+        }
+        p::first-line {
+            text-decoration: underline;
+        }
+        .card {
+            width: 400px;
+            border: 1px solid black;
+            display: block;
+            overflow: auto;
+            height: 300px;
+            padding: 20px;
+            opacity: 50%;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            background-color: beige;
+        }
+        .card:hover {
+            opacity: 100%;
+        }
+        img {
+            width: 100px;
+            float: inline-start;
+            margin: 10px;
+        }
+        ul i:first-child {
+            background-color: blue;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+
+        <h1>История возникновения</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa libero accusantium similique provident? 
+            Praesentium sint maiores libero repudiandae quis vero temporibus reiciendis, 
+            animi soluta est. Quos quibusdam possimus eos corporis!</p>
+        <img src="https://dualcreditathome.com/wp-content/uploads/2014/02/history.jpg" alt="history">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa libero accusantium similique provident? 
+            Praesentium sint maiores libero repudiandae quis vero temporibus reiciendis, 
+            animi soluta est. Quos quibusdam possimus eos corporis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa libero accusantium similique provident? 
+            Praesentium sint maiores libero repudiandae quis vero temporibus reiciendis, 
+            animi soluta est. Quos quibusdam possimus eos corporis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa libero accusantium similique provident? 
+            Praesentium sint maiores libero repudiandae quis vero temporibus reiciendis, 
+            animi soluta est. Quos quibusdam possimus eos corporis!</p>  
+
+        <ul>
+            <li><i>List1</i></li>
+            <li>List2</li>
+            <li>List3</li>
+            <li>List4</li>
+        </ul>
+    </div>
+</body>
+</html>
